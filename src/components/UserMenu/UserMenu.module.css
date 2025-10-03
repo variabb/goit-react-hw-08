@@ -1,12 +1,21 @@
 .wrapper {
   display: flex;
   align-items: center;
-  gap: 15px;
-  padding: 0 15px;
+  gap: 12px;
+  color: white;
 }
+
 .btn {
-  padding: 5px;
-  display: block;
-  border-radius: 5px;
-  border: 1px solid #808080;
+  background: #fff;
+  color: #4a90e2;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #dceeff;
 }

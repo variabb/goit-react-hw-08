@@ -1,12 +1,20 @@
 .nav {
   display: flex;
-  gap: 15px;
+  gap: 16px;
 }
+
 .link {
-  padding: 15px;
-  font-size: 18px;
+  color: white;
   font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background 0.3s;
 }
+
+.link:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
 .active {
-  color: #cd1f3e;
+  background: rgba(255, 255, 255, 0.3);
 }
